@@ -1,0 +1,68 @@
+DeepLeaf Agronomist-1
+Copyright 2024 DeepLeaf, Co. (Delaware, United States)
+
+DeepLeaf operates through three entities:
+  DeepLeaf, Co.          Delaware, United States   since 2024
+  STE DeepLeaf SARLAU    Sidi Bennour, Morocco     since 2023
+  DeepLeaf LLC           Qatar Financial Centre    since 2025
+
+This product includes software developed by DeepLeaf, Co.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---
+
+TRADEMARKS
+
+"DeepLeaf" and the DeepLeaf logo are trademarks of DeepLeaf, Co.
+The Apache License does not grant permission to use these trademarks,
+except as required for reasonable and customary use in describing the
+origin of the work and reproducing the content of this NOTICE file.
+
+---
+
+MODEL WEIGHTS
+
+The trained model parameters distributed at
+https://huggingface.co/DeepLeaf/DeepLeaf-Agronomist-1
+are licensed under the Apache License, Version 2.0, on the same terms
+as the code in this repository.
+
+---
+
+TRAINING DATA
+
+The training, validation and test dataset for this model is published
+separately under the Creative Commons Attribution 4.0 International
+licence (CC-BY-4.0):
+
+    https://huggingface.co/datasets/DeepLeaf/DeepLeaf-FieldImages-Open
+
+Required attribution when reusing the dataset:
+
+    DeepLeaf-FieldImages-Open, DeepLeaf, Co., CC-BY-4.0.
+    https://huggingface.co/datasets/DeepLeaf/DeepLeaf-FieldImages-Open
+
+Per-image provenance and the original licence of every third-party
+source are recorded in the dataset manifest.
+
+---
+
+THIRD-PARTY COMPONENTS
+
+This model is derived from Qwen3-VL, developed by the Qwen team at
+Alibaba Cloud and released under the Apache License, Version 2.0.
+
+  Qwen3-VL-4B-Instruct   Apache-2.0   https://huggingface.co/Qwen
+
+Additional third-party components will be listed here at release, with
+their licences and copyright holders.
