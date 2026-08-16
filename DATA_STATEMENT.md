@@ -45,8 +45,8 @@ up on a photograph a farmer actually takes.
 Two sources:
 
 1. **Openly licensed public datasets**, each verified individually at its primary source.
-2. **A DeepLeaf contribution**, published only where documented consent covering open publication
-   was obtained from the contributing farmer or cooperative.
+2. **DeepLeaf's own field imagery**, which the company holds the rights to and can therefore
+   republish under CC-BY-4.0.
 
 ### Trajectories
 
@@ -88,14 +88,19 @@ risk.
 
 ---
 
-## Consent
+## Rights and privacy
 
-Imagery contributed by DeepLeaf is published only with documented consent covering open
-publication under CC-BY-4.0, including commercial reuse by third parties.
+DeepLeaf's contribution is imagery the company holds the rights to, which is what allows it to
+be republished under CC-BY-4.0 including commercial reuse. Third-party imagery enters only where
+its licence permits the same, verified at the primary source.
 
-Contributors may request removal at any time. The takedown process, its timescale, and the
-limit on it — copies already distributed under CC-BY-4.0 cannot be recalled, so removal applies
-going forward — are documented in the dataset card.
+The corpus is photographs of plants. It carries no personal data: images are screened for
+identifiable people, documents and signage, and EXIF metadata including GPS coordinates and
+device identifiers is stripped. Precise plot coordinates are not published.
+
+A takedown route exists regardless, with its timescale and the limit on it — copies already
+distributed under CC-BY-4.0 cannot be recalled, so removal applies going forward — documented in
+the dataset card.
 
 ---
 

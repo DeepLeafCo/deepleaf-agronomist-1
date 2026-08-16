@@ -26,7 +26,6 @@ Not published: model weights, training or inference code, the dataset, any evalu
 - The schema — the documented interface contract, enough to build your own harness
 - The training, validation and test dataset under CC-BY-4.0
 - Full results against the protocol above, across all five axes
-- A live demo
 - Nomination filed with the Digital Public Goods Registry
 
 ---
