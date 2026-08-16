@@ -32,8 +32,8 @@ origin of the work and reproducing the content of this NOTICE file.
 
 MODEL WEIGHTS
 
-The trained model parameters distributed at
-https://huggingface.co/DeepLeaf/DeepLeaf-Agronomist-1
+The trained model parameters, to be distributed from November 2026 at
+https://huggingface.co/DeepLeaf/deepleaf-agronomist-1-4B
 are licensed under the Apache License, Version 2.0, on the same terms
 as the code in this repository.
 

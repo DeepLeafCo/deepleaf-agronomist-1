@@ -39,7 +39,7 @@ the licences, the governance, and the evaluation protocol, before any results ex
 | Licence decision and reasoning | [LICENSING.md](LICENSING.md) |
 | Responsible use | [RESPONSIBLE_USE.md](RESPONSIBLE_USE.md) |
 | Target release | Late November 2026 |
-| Be notified | https://deepleaf.io/agronomist-1 |
+| Be notified | Watch this repository, or open a Discussion |
 
 ---
 
