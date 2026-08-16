@@ -1,0 +1,63 @@
+name: Reference library entry
+description: Offer reference material for a crop or condition, so the model can cover it without retraining.
+title: "[reference] "
+labels: ["reference-library"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Coverage grows here rather than in the weights. An entry becomes retrievable only after
+        agronomic review, because the model cites it — a wrong reference is worse than a
+        missing one.
+
+        Every entry needs a licence that can be verified at its primary source. A licence tag
+        on a mirror is not a grant.
+  - type: input
+    id: crop
+    attributes:
+      label: Crop
+      description: Common and scientific name.
+    validations:
+      required: true
+  - type: input
+    id: condition
+    attributes:
+      label: Condition
+      description: Common and scientific name. Disease, pest or nutrient deficiency.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Condition description
+      description: How the symptom presents on this host. Distinguishing features against what it is most often confused with.
+    validations:
+      required: true
+  - type: textarea
+    id: imagery
+    attributes:
+      label: Reference imagery
+      description: Attach images, or link them. Field conditions rather than laboratory backgrounds where possible.
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence of the imagery, and its primary source URL
+      description: Must permit CC-BY-4.0 redistribution. Give the original source, not a mirror.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for the identification
+      description: Laboratory confirmation, published reference, or the basis of the visual diagnosis.
+    validations:
+      required: false
+  - type: textarea
+    id: background
+    attributes:
+      label: Your agronomic background
+      description: Optional. It helps route the review.
+    validations:
+      required: false

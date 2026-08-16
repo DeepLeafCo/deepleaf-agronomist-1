@@ -1,3 +1,7 @@
+![DeepLeaf Agronomist-1, of the Agronomist-X family: an open agentic vision-language model for
+agriculture. Weights and code under Apache-2.0, training data under CC-BY-4.0. Specification
+published; model and dataset November 2026.](assets/agronomist-1-social.jpg)
+
 # DeepLeaf Agronomist-1
 
 **An open agentic vision-language model for agriculture. Specification published now,

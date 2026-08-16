@@ -1,0 +1,24 @@
+name: Documentation error
+description: Something in the published documents is wrong, unclear or contradicts another document.
+title: "[docs] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File and section
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: If two documents disagree, name both.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction
+    validations:
+      required: false

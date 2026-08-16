@@ -1,0 +1,34 @@
+name: Crop or condition request
+description: Ask for coverage of a crop, condition, region or language.
+title: "[coverage] "
+labels: ["coverage"]
+body:
+  - type: input
+    id: crop
+    attributes:
+      label: Crop or condition
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Country or region
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What you are building, and what this blocks
+      description: Requests tied to something real get prioritised over general interest.
+    validations:
+      required: true
+  - type: dropdown
+    id: material
+    attributes:
+      label: Do you have imagery or reference material for it?
+      options:
+        - "Yes, and it is openly licensed"
+        - "Yes, but I need to check the licence"
+        - "No"
+    validations:
+      required: true

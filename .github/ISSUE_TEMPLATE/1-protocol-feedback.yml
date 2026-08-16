@@ -1,0 +1,56 @@
+name: Evaluation protocol or specification problem
+description: A methodological problem with how we plan to measure this model.
+title: "[protocol] "
+labels: ["protocol-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The protocol is published before any training run so it can be corrected while
+        correction is still cheap. Once training starts, changes are logged as amendments
+        with a date and a reason.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part
+      options:
+        - Data splits
+        - Metric choice or primary metric
+        - Class inclusion threshold
+        - Calibration or abstention
+        - Robustness testing
+        - Bias and fairness reporting
+        - Baselines
+        - Failure thresholds
+        - Retrieval evaluation
+        - Something in the specification rather than the protocol
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: File and section, for example EVAL_PROTOCOL.md section 3.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: What the current approach would measure, and why that is not what it claims.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would be better
+      description: A concrete alternative, and a reference if there is one.
+    validations:
+      required: false
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background
+      description: Optional, and only to help us weigh the comment. Plant pathology, ML, evaluation methodology, field experience.
+    validations:
+      required: false

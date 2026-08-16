@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/DeepLeafCo/deepleaf-agronomist-1/discussions
+    about: Questions about the specification, licences or architecture go in Discussions.
+  - name: Security or safety report
+    url: https://github.com/DeepLeafCo/deepleaf-agronomist-1/security/policy
+    about: Do not open a public issue. Report privately, see SECURITY.md.
+  - name: Agronomic correction
+    url: mailto:hello@deepleaf.io
+    about: A wrong condition definition or label taxonomy error. Email us directly.
