@@ -1,6 +1,6 @@
 # Evaluation Protocol — pre-registered
 
-**Published 7 August 2026, before any training run and before any results existed.**
+**Published 16 August 2026, before any training run and before any results existed.**
 
 Once published, this document is frozen. Any change is recorded in the amendment log at the
 bottom, with a date and a reason, and the amendment log is published alongside the results.
@@ -383,7 +383,7 @@ held as written.
 
 | Date | Section | Change | Reason |
 |---|---|---|---|
-| 2026-08-07 | — | Initial publication | Pre-registration, before any training run |
+| 2026-08-16 | — | Initial publication | Pre-registration, before any training run |
 
 The thresholds in §10 are minimums for deployment, not performance targets. A perception floor
 marks the level below which the model is not useful to anyone; the two safety criteria —

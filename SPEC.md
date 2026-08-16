@@ -2,7 +2,7 @@
 
 **Status: specification. The artefact is not yet released.**
 
-Published 7 August 2026. Model, dataset and training code follow in late November 2026.
+Published 16 August 2026. Model, dataset and training code follow in late November 2026.
 
 This document states what we are building, what licences it will carry, and what it will and
 will not do. The evaluation protocol is published separately and was fixed before any results
